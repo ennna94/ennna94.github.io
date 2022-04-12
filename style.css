@@ -1,8 +1,130 @@
-body {background-color: #FFFFF0; color: DimGray; font-family: sans-serif}
-h1 {font-size: 20px;}
-h3 {font-size: 18px;}
-p {width: 20%; font-size: 16px; color: DarkBlue; background-color: Lavender}
-ol {list-style-type: upper-alpha;}
-ul {list-style-type: square;}
-.myDiv {border-style: dotted; border-width: 2px;}
-.myDiv {height: 200px; width:200px }
+body {
+  background-image: url('akin-cakiner-nkUFXi0JSX8-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: sans-serif, arial;
+}
+
+
+.header {
+  background-color: #0f1010;
+  width: 33%;
+  color: #a6a6a6;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif, arial;
+  font-size: 40px;
+  
+ }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #091a25;
+  background-color: #080f14;
+  position: fixed;
+  top: 170px;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #a6a6a6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #17303c;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.colum1 {
+  color: #a6a6a6;
+  text-align: center;
+ }
+
+.portfolioheader {
+  color: #a6a6a6;
+  text-align: center;
+  border-style: solid;
+  border-color: #17303c;
+  width: 250px ;
+  margin-left: auto;
+  margin-right: 370px;
+  
+ } 
+
+.portfoliotext {
+  color: #a6a6a6;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 420px;
+ } 
+
+.portfoliolist{
+  color: #a6a6a6;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+ } 
+
+ol {
+  padding: 40px;
+  list-style-type: none;
+  background-color:#091a25;
+  width: 15%;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 320px;
+  
+}
+
+.colum2  {
+  color: #a6a6a6;
+  text-align: center;
+ } 
+
+.colum3 {
+  color: #a6a6a6;
+  text-align: center;
+ 
+ } 
+
+.fillerimage {
+  color: #a6a6a6;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10px;
+
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
+.sentemail {
+  background-color: #091a25;
+  color: #a6a6a6;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  border: 2px solid #0f1010;
+}

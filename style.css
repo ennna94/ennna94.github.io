@@ -1,134 +1,132 @@
 body {
-  background-image: url('akin-cakiner-nkUFXi0JSX8-unsplash.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: sans-serif, arial;
+    background-image: url(akin-cakiner-nkUFXi0JSX8-unsplash.jpg);
+    font-family: sans-serif, arial;
+    font-size: 16px;
+    color: white;
+}
+
+#main-header {
+    border-style: solid;
+    border-width: medium;
+    border-color: #17303c;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    width: 96.3%;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+
 }
 
 
-.header {
-  background-color: #0f1010;
-  width: 33%;
-  color: #a6a6a6;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: sans-serif, arial;
-  font-size: 40px;
-  
- }
+#navigation {
+    background-color: DarkSlateGray;
+    color: white;
+    float: none;
+    height: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    word-spacing: 10px;
+    text-decoration: none;
+    
+
+}
+
+a:link, a:visited {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+
+}
+
+a:hover, a:active {
+    background-color: DarkSeaGreen;
+    color: white;
+}
+
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #091a25;
-  background-color: #080f14;
-  position: fixed;
-  top: 170px;
-  width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+
 }
 
-li {
-  float: left;
-}
+ol {
+    list-style-type: none;
+    text-decoration: none;
 
-li a {
-  display: block;
-  color: #a6a6a6;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
+#section1 {
+    background-color: DimGrey;
+    float: left;
+    width: 55%;
+    padding: 40px;
+    height: 214px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 
-li a:hover {
-  background-color: #17303c;
 }
+#article1 {
+    border: 3px solid DarkSlateGrey;
+    padding: 5px;
+    text-align: center;
+    
+}
+#article2 {
+    border: 3px solid DarkSlateGrey;
+    padding: 5px;
+    text-align: center;
+      
+}
+#article3 {
+    border: 3px solid DarkSlateGrey;
+    padding: 5px;
+    text-align: center;
+      
+}
+#aside {
+    background-color: DarkGray;
+    float: right;
+    width: 33%;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;;
+    height: 530px;
+    text-align: center;
+    margin-right: 20px;
+ 
+}
+.computerimage {
+    border: 2px dotted black;
 
-.active {
-  background-color: #04AA6D;
 }
-.colum1 {
-  color: #a6a6a6;
-  text-align: center;
- }
+footer {
+    background-color: DarkSlateGray;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 20px;
+    width: 96.1%;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+ 
+}
+#contact {
+}
 
 .portfolioheader {
-  color: #a6a6a6;
-  text-align: center;
-  border-style: solid;
-  border-color: #17303c;
-  width: 250px ;
-  margin-left: auto;
-  margin-right: 370px;
-  
- } 
+    text-align: center;
+}
 
 .portfoliotext {
-  color: #a6a6a6;
-  text-align: right;
-  margin-left: auto;
-  margin-right: 420px;
- } 
-
-
-
-.portfoliolist {
-  color: #a6a6a6;
-  padding: 25px 50px 30px 20px;
-  list-style-type: none;
-  background-color:#091a25;
-  width: 15%;
-  text-align: right;
-  margin-left: auto;
-  margin-right: 320px;
-  
-}
-
-.portfoliolist2 {
- color: #a6a6a6;
- text-align: center;
- margin-left: 900px;
-
-
-}
-
-.colum2  {
-  color: #a6a6a6;
-  text-align: center;
- } 
-
-.colum3 {
-  color: #a6a6a6;
-  text-align: center;
- 
- } 
-
-.fillerimage {
-  color: #a6a6a6;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 10px;
-
-}
-
-.img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-}
-
-
-.sentemail {
-  background-color: #091a25;
-  color: #a6a6a6;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 25px;
-  border: 2px solid #0f1010;
+    text-align: center;
 }
